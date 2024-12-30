@@ -1,0 +1,94 @@
+Documentation for Basic Webpage Project: 
+
+
+
+"Interactive Light and Image Toggle"
+
+Project Overview
+This project creates a simple interactive webpage using HTML, CSS, and JavaScript.
+The webpage allows users to toggle a light bulb's state (ON or OFF) using buttons, 
+which also changes the associated images and button styles dynamically
+
+Folder Structure:
+graphql
+project-folder/
+│
+├── index.html         # Main HTML file
+├── styles.css         # CSS file for styling
+├── script.js          # JavaScript file for functionality
+├── images/            # Folder containing images
+│   ├── bulb-go-on-img.png  # Image of bulb turned ON
+│   ├── bulb-go-off-img.png # Image of bulb turned OFF
+│   ├── images.png          # Default cat image
+│   ├── cat-eyes-img.png     # Cat image when light is OFF
+
+
+Connecting Files:
+
+1. CSS Connection :
+    <link rel="stylesheet" href="styles.css">
+2. javascript Connetion :
+    <script src="script.js"></script>
+
+Key HTML Elements
+1.Image Elements:
+
+    Used id attributes (blubimageid and catimageid) to manipulate the images dynamically.
+
+2.Button Elements:
+
+    Two buttons with onclick attributes trigger switchon() and switchoff() functions.
+
+3.Status Display:
+
+    A <h1> element displays the current state ("Switch On" or "Switch Off").
+
+
+JavaScript Functionality
+1.Switch OFF (switchoff()):
+
+Changes bulb and cat images to "OFF" state.
+Updates button styles and status text.
+2.Switch ON (switchon()):
+
+Resets images to "ON" state and initial styles.
+
+
+
+///////////////Execution Flow///////////////
+Initial State:
+
+The bulb is ON, and the cat displays a default image.
+The "Switch Off" button is red, indicating it is ready for use.
+Switch OFF:
+
+//////////Clicking the "OFF" button triggers switchoff():
+Bulb changes to an OFF image.
+Cat image switches to "cat-eyes" (dimmed).
+Button styles update, and status text changes to "SwitchOFF".
+Switch ON:
+
+/////////Clicking the "ON" button triggers switchon():
+Bulb returns to ON state.
+Cat image resets to the default.
+Button styles and status text revert to the initial state.
+
+
+
+////////////////////////Important Points/////////////////////
+Dynamic Updates:
+document.getElementById() is used to dynamically update images, text, and styles.
+Event Handling:
+onclick attributes link HTML buttons to JavaScript functions.
+Modular Approach:
+Separate CSS and JavaScript files ensure clean and maintainable code.
+
+
+///////////////////How to Run////////////////////
+Save the provided files in the correct folder structure.
+Open index.html in any modern browser.
+Use the "ON" and "OFF" buttons to toggle the images and observe the changes.
+
+
+
+

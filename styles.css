@@ -1,0 +1,68 @@
+
+
+
+.darkbackground {
+    background-size:cover;
+
+    background-color:#0b0b0b;
+}
+
+.mainheadingstyle{
+    color:white;
+    font-size:50px;
+
+    font-family:Roboto;
+}
+.catimage{
+
+    width:290px;
+    height:300px;
+}
+.blubimage{
+    width:230px;
+    height:160px;
+}
+.switchboard{
+
+
+    background-color: azure;
+    border-radius:12px;
+    width: 234px;
+    height: 110px;
+    margin-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px
+}
+.switchtext{
+    color:rgb(20, 5, 12);
+    font-size:25px;
+}
+.switchtoff{
+
+    background-color:rgb(212, 11, 11);
+    font-size:20px;
+    border-radius:8px;
+    width:80px;
+
+
+}
+.switchton{
+
+    background-color:rgb(178, 182, 179);
+    font-size:20px;
+    border-radius:8px;
+    width:80px;
+
+
+}
+
+
+.heading{
+    color:white ;
+    font-size:20px;
+    font-family:Roboto;
+    font-weight:bold;
+    
+}
